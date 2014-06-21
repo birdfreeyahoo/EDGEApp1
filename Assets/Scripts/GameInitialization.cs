@@ -3,17 +3,16 @@ using System.Collections.Generic;
 
 public static class GameInitialization
 {
-    public static Texture backgroundTexture;
+    static Texture backgroundTexture;
 
-    public static float playerSpeed = 2.0f;
+    static float playerSpeed = 2.0f;
 
-    public static float asteroidSpeed = 2.0f;
-    public static int asteroidSpeedVariance = 10;
+    static float asteroidSpeed = 2.0f;
+    static int asteroidSpeedVariance = 10;
 
-    public static Dictionary<GameObject, int> asteroidProbability = new Dictionary<GameObject,int>();
+    static Dictionary<GameObject, int> asteroidProbability = new Dictionary<GameObject,int>();
 
-    public static float spawnInterval = 1.5f;
-    public static int intervalVariance = 20;
+    static float spawnInterval = 1.5f;
+    static int intervalVariance = 20;
 
-    public static float levelDuration = 30.0f;
 }
