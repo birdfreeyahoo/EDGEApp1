@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
-public class GameInitialization : MonoBehaviour 
+public static class GameInitialization
 {
+    static Texture backgroundTexture;
 
-	// Use this for initialization
-	void Start () 
-    {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () 
-    {
-	
-	}
+    static float playerSpeed = 2.0f;
+
+    static float asteroidSpeed = 2.0f;
+    static int asteroidSpeedVariance = 10;
+
+    static Dictionary<GameObject, int> asteroidProbability = new Dictionary<GameObject,int>();
+
+    static float spawnInterval = 1.5f;
+    static int intervalVariance = 20;
+
 }
