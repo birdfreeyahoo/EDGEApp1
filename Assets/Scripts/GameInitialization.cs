@@ -15,6 +15,7 @@ public static class GameInitialization
     public static float spawnInterval = 1.5f;
     public static int intervalVariance = 20;
 
-    public static float levelDuration = 120.0f;
+    public static float levelTrack = 1000.0f;
 
+    public static string scriptProxyName = "stdScriptProxy";
 }
