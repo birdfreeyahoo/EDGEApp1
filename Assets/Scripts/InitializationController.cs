@@ -5,7 +5,7 @@ public class InitializationController : MonoBehaviour
 {
     void Start()
     {
-        GameController scriptProxy = (GameController)Instantiate(Resources.Load(GameInitialization.scriptProxyName));
+        Object scriptProxy = Instantiate(Resources.Load(GameInitialization.scriptProxyName));
 
         if (scriptProxy == null)
         {
