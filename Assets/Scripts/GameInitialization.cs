@@ -22,7 +22,7 @@ public static class GameInitialization
 
     public static Rect cameraRect = new Rect(-1.0f, -1.0f, 2.0f, 2.0f);
 
-    public static float spawnZValue = 20.0f;
+    public static float spawnZValue = 40.0f;
 
     public static float levelTrack = 1000.0f;
 
